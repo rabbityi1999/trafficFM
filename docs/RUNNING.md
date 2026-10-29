@@ -2,6 +2,8 @@
 
 ## Data layout
 
+Download links for METR-LA (`metr-la.h5`), PEMS-BAY (`pems-bay.h5`) and graph metadata are provided in [DATASETS.md](DATASETS.md).
+
 The unified traffic runners consume the existing fixed-index data format:
 
 ```text

@@ -13,11 +13,14 @@ This repository brings together TrafficFM and baseline implementations for traff
 - [Fixed-version upstream downloads](docs/UPSTREAM_BASELINES.md): DCRNN, DGCRN, GWNET, STGCN, HimNet, STD-MAE, TSFlow, UniST, STUM and FreqFlow. Together with the 14 bundled implementations, these cover all 24 baseline names.
 - `tests/`: synthetic CPU regression tests; no traffic data or GPU is required.
 - [Baseline inventory](docs/BASELINES.md): all 24 baseline names in the current main comparison, with code availability and upstream references.
+- [Dataset downloads](docs/DATASETS.md): METR-LA, PEMS-BAY, graph metadata and local data layout.
 - [Data and execution](docs/RUNNING.md), [version guide](docs/VERSIONS.md), and [third-party notices](THIRD_PARTY_NOTICES.md).
 
 This is an **initial source release**, not a regenerated leaderboard. Source availability, executable tests, and reproduction of a published table row are distinct statuses. The inventory records these separately. Datasets, trained weights, and historical run logs are not bundled.
 
 ## Quick start
+
+Download `metr-la.h5` and `pems-bay.h5` from the [DCRNN dataset folder](https://drive.google.com/drive/folders/10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX). See [DATASETS.md](docs/DATASETS.md) for the source page, mirror and preprocessing layout.
 
 Use an isolated environment; the baseline libraries have different optional dependencies.
 
