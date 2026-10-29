@@ -23,3 +23,4 @@ wandb/
 *.zip
 *.tar*
 *.log
+third_party/upstream/

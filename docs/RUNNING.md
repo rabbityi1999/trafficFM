@@ -42,6 +42,8 @@ The training entry points require CUDA. Specify the data, graph, objective, mode
 
 ## Unified baseline runners
 
+To obtain DCRNN, DGCRN, GWNET, STGCN, HimNet, STD-MAE, TSFlow, UniST, STUM and FreqFlow, run `python tools/fetch_baselines.py --all` from the repository root. Their pinned upstream model paths and native training interfaces are described in [UPSTREAM_BASELINES.md](UPSTREAM_BASELINES.md).
+
 From the repository root:
 
 ```bash

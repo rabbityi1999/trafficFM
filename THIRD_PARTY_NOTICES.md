@@ -13,4 +13,18 @@ The sources below retain their original ownership and licenses. TrafficFM integr
 
 Upstream license texts absent from the copied research tree were recovered from the upstream repository for Time-Series-Library, STID and Graph WaveNet. They do not relicense unrelated code. Existing copyright headers inside source files remain in place.
 
-Sources with no verified redistribution license are linked in the baseline inventory rather than mirrored here. Please cite the original method papers when using their code. The authors' choice of license for new TrafficFM contributions remains pending; public visibility alone is not a blanket relicensing of third-party code.
+## Fixed-version downloads
+
+These sources are downloaded directly from their upstream repositories by `tools/fetch_baselines.py`. Commit and tree identifiers are recorded in `third_party/baselines.lock.json`. Downloaded checkouts are ignored by Git and are not redistributed with TrafficFM.
+
+| Models | Upstream |
+|---|---|
+| DCRNN, DGCRN, GWNET, STGCN | https://github.com/trainingl/STG4Traffic |
+| HimNet | https://github.com/XDZhelheim/HimNet |
+| STD-MAE | https://github.com/Jimmy-7664/STD-MAE |
+| TSFlow | https://github.com/marcelkollovieh/TSFlow |
+| UniST | https://github.com/tsinghua-fib-lab/UniST |
+| STUM | https://github.com/RWLinno/STUM |
+| FreqFlow | https://github.com/moghadas76/Freq_Spect |
+
+No repository-wide redistribution license was identified for these seven snapshots during the release audit. Their original notices and any component-specific terms remain applicable; the downloader grants no additional rights. Please cite the original method papers when using their code. The authors' choice of license for new TrafficFM contributions remains pending.

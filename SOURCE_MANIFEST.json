@@ -954,6 +954,20 @@
       "provenance": "repository implementation",
       "implementation_version": 1,
       "created": "2026-10-29"
+    },
+    {
+      "path": "tools/fetch_baselines.py",
+      "sha256": "29ece36a8aab54116a1d95000f2834d4f65284cd10f9409981f3eae95761e170",
+      "provenance": "repository implementation",
+      "implementation_version": 1,
+      "created": "2026-10-29"
+    },
+    {
+      "path": "tests/test_fetch_baselines.py",
+      "sha256": "25bca19590345f8a15704f6259551e36c435b2bbcbd2ce9fa9973886e7f2f8d8",
+      "provenance": "repository implementation",
+      "implementation_version": 1,
+      "created": "2026-10-29"
     }
   ]
 }

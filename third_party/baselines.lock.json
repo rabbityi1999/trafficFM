@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "verified_on": "2026-10-29",
+  "sources": [
+    {
+      "id": "STG4Traffic",
+      "url": "https://github.com/trainingl/STG4Traffic.git",
+      "commit": "00cf6bcf85da0333f67ff983dbbb59120fc1ac4d",
+      "tree": "c2b80bcbe33205770e11866f785e04f8729a70e1",
+      "pin_basis": "upstream revision verified 2026-10-29",
+      "models": {
+        "DCRNN": [
+          "TrafficSpeed/model/DCRNN/dcrnn.py",
+          "TrafficSpeed/DCRNN/DCRNN_Main.py"
+        ],
+        "DGCRN": [
+          "TrafficSpeed/model/DGCRN/net.py",
+          "TrafficSpeed/DGCRN/DGCRN_Main.py"
+        ],
+        "GWNET": [
+          "TrafficSpeed/model/GWNET/gwnet.py",
+          "TrafficSpeed/GWNET/GWNET_Main.py"
+        ],
+        "STGCN": [
+          "TrafficSpeed/model/STGCN/stgcn.py",
+          "TrafficSpeed/STGCN/STGCN_Main.py"
+        ]
+      }
+    },
+    {
+      "id": "HimNet",
+      "url": "https://github.com/XDZhelheim/HimNet.git",
+      "commit": "2a9aa44d1864f6fb60bdf9d14bafd6c1681e81a5",
+      "tree": "6582b0265d7c04752c1e166b4bdee8ccd19ea294",
+      "pin_basis": "upstream revision verified 2026-10-29",
+      "models": {
+        "HimNet": [
+          "model/HimNet.py",
+          "scripts/train.py",
+          "model/HimNet.yaml"
+        ]
+      }
+    },
+    {
+      "id": "STD-MAE",
+      "url": "https://github.com/Jimmy-7664/STD-MAE.git",
+      "commit": "29fba76216f7ff9f2b51d097786cb5c91a8dae8b",
+      "tree": "a7cd0384094b568b9def83a1bfabd62a91d09679",
+      "pin_basis": "upstream revision verified 2026-10-29",
+      "models": {
+        "STD-MAE": [
+          "stdmae/stdmae_arch/stdmae.py",
+          "stdmae/run.py",
+          "stdmae/STDMAE_METR-LA.py",
+          "stdmae/STDMAE_PEMS-BAY.py"
+        ]
+      }
+    },
+    {
+      "id": "TSFlow",
+      "url": "https://github.com/marcelkollovieh/TSFlow.git",
+      "commit": "ff893176a41a1037f63efae674aab71480eee7d0",
+      "tree": "e639d149988bca05e31f83f343ce0c310c7a0607",
+      "pin_basis": "recorded research-checkout upstream revision",
+      "models": {
+        "TSFlow": [
+          "tsflow/model/tsflow_cond.py",
+          "bin/train_model.py",
+          "configs_local/train_conditional.yaml"
+        ]
+      }
+    },
+    {
+      "id": "UniST",
+      "url": "https://github.com/tsinghua-fib-lab/UniST.git",
+      "commit": "6ee69db00d8f67e550f9bc3c06f004f9f7885703",
+      "tree": "12f2906d74c920726fc05d84c170739414c87073",
+      "pin_basis": "recorded research-checkout upstream revision",
+      "models": {
+        "UniST": [
+          "src/model.py",
+          "src/main.py",
+          "requirements.txt"
+        ]
+      }
+    },
+    {
+      "id": "STUM",
+      "url": "https://github.com/RWLinno/STUM.git",
+      "commit": "3884fb50f3052f1be5d0d3a3b1aa95fb3e3e5af4",
+      "tree": "05ee69b912b2bbec0380305199061bed6d0dc214",
+      "pin_basis": "recorded research-checkout upstream revision",
+      "models": {
+        "STUM": [
+          "train_stum_ori.py",
+          "main.py",
+          "requirements.txt"
+        ]
+      }
+    },
+    {
+      "id": "FreqFlow",
+      "url": "https://github.com/moghadas76/Freq_Spect.git",
+      "commit": "ecf0e354c9e8ec39d93392d0a8dadd9c8e2446d0",
+      "tree": "58b7d1b58ffb3176e41499c078f931e6b06896db",
+      "pin_basis": "recorded research-checkout upstream revision",
+      "models": {
+        "FreqFlow": [
+          "models/Flow_Spect.py",
+          "run_longExp_F.py",
+          "requirements.txt"
+        ]
+      }
+    }
+  ]
+}

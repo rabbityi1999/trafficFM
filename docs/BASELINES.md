@@ -1,32 +1,32 @@
 # Baseline inventory
 
-All 24 baseline names below occur in the current main comparison. **Bundled** means source files are included. **Reference** means the source is linked upstream. The source package includes 14 baseline implementations. Linear and VAR have versioned model definitions, runnable traffic entry points and usage documentation in their respective directories.
+All 24 baseline names below occur in the current main comparison. **Bundled** means source files are included; **Fixed-version fetch** means the implementation is retrieved from a commit locked in `third_party/baselines.lock.json`. The release provides 14 bundled implementations and download entries for the remaining 10. See [upstream download and model locations](UPSTREAM_BASELINES.md).
 
 | Baseline | Distribution | Location / upstream |
 |---|---|---|
 | Autoformer | Bundled library | `methods/baselines/Time-Series-Library/models/Autoformer.py` |
 | CSDI | Bundled + traffic runner | `methods/baselines/CSDI/run_unified_144.py` |
-| DCRNN | Reference | STG4Traffic source collection; see below |
-| DGCRN | Reference | STG4Traffic source collection |
+| DCRNN | Fixed-version fetch | `python tools/fetch_baselines.py --models DCRNN` |
+| DGCRN | Fixed-version fetch | `python tools/fetch_baselines.py --models DGCRN` |
 | DiffSTG | Bundled + traffic runner | `methods/baselines/DiffSTG/run_unified_144.py` |
 | DLinear | Bundled library | `methods/baselines/Time-Series-Library/models/DLinear.py` |
 | FEDformer | Bundled library | `methods/baselines/Time-Series-Library/models/FEDformer.py` |
-| FreqFlow | Reference | https://github.com/moghadas76/Freq_Spect |
-| GWNET | Reference | STG4Traffic benchmark adaptation; https://github.com/nnzhan/Graph-WaveNet |
-| HimNet | Reference | https://github.com/XDZhelheim/HimNet |
+| FreqFlow | Fixed-version fetch | `python tools/fetch_baselines.py --models FreqFlow` |
+| GWNET | Fixed-version fetch | `python tools/fetch_baselines.py --models GWNET` |
+| HimNet | Fixed-version fetch | `python tools/fetch_baselines.py --models HimNet` |
 | Informer | Bundled library | `methods/baselines/Time-Series-Library/models/Informer.py` |
 | iTransformer | Bundled library | `methods/baselines/Time-Series-Library/models/iTransformer.py` |
 | LightTS | Bundled library | `methods/baselines/Time-Series-Library/models/LightTS.py` |
 | Linear | Bundled + traffic runner | [Direct temporal projection](../methods/baselines/Linear/README.md) |
 | PatchSTG | Bundled source + development configs | `methods/baselines/PatchSTG/`; spatial metadata not bundled |
 | PatchTST | Bundled library | `methods/baselines/Time-Series-Library/models/PatchTST.py` |
-| STD-MAE | Reference | https://github.com/Jimmy-7664/STD-MAE |
-| STGCN | Reference | STG4Traffic source collection |
+| STD-MAE | Fixed-version fetch | `python tools/fetch_baselines.py --models STD-MAE` |
+| STGCN | Fixed-version fetch | `python tools/fetch_baselines.py --models STGCN` |
 | STID | Bundled + traffic runner | `methods/baselines/STID/run_unified_144.py` |
-| STUM | Reference | https://github.com/RWLinno/STUM |
+| STUM | Fixed-version fetch | `python tools/fetch_baselines.py --models STUM` |
 | Transformer | Bundled library | `methods/baselines/Time-Series-Library/models/Transformer.py` |
-| TSFlow | Reference | https://github.com/marcelkollovieh/TSFlow |
-| UniST | Reference | https://github.com/tsinghua-fib-lab/UniST |
+| TSFlow | Fixed-version fetch | `python tools/fetch_baselines.py --models TSFlow` |
+| UniST | Fixed-version fetch | `python tools/fetch_baselines.py --models UniST` |
 | VAR | Bundled + traffic runner | [Multivariate autoregression](../methods/baselines/VAR/README.md) |
 
 STG4Traffic upstream: https://github.com/trainingl/STG4Traffic. The benchmark adapters should not be conflated with an unmodified upstream release.
@@ -45,4 +45,4 @@ These revisions identify upstream bases from the research checkout, not guarante
 
 STMPNet and SpecSTG also appeared in supplementary probability investigations. Their sources are https://github.com/yang-1201/STMPNet (`b06f454c1604b7b722cb907160e8b79c99821185`) and https://github.com/lequanlin/SpecSTG (`c434bcd27507851ad9f40aa92e7147d3e91e5b20`). They are not counted among the 24 rows above and their experiment adapters are not included in this initial source release.
 
-For the remaining upstream-only entries, fixed-revision retrieval is the selected distribution approach. Their local benchmark adapters and configuration records are tracked separately.
+Use `python tools/fetch_baselines.py --all` to retrieve the ten upstream entries and `--all --check` to verify the downloaded source against the lockfile. Their local benchmark adapters and configuration records are tracked separately.

@@ -10,6 +10,7 @@ This repository brings together TrafficFM and baseline implementations for traff
 - `methods/baselines/Time-Series-Library/`: Autoformer, DLinear, FEDformer, Informer, iTransformer, LightTS, PatchTST, Transformer, and supporting library modules.
 - `methods/baselines/{CSDI,DiffSTG,STID,PatchSTG}/`: baseline implementations and available traffic adapters.
 - [Linear](methods/baselines/Linear/README.md) and [VAR](methods/baselines/VAR/README.md): direct temporal projection and multivariate autoregression, with training/fitting, checkpoint saving and fixed-index evaluation.
+- [Fixed-version upstream downloads](docs/UPSTREAM_BASELINES.md): DCRNN, DGCRN, GWNET, STGCN, HimNet, STD-MAE, TSFlow, UniST, STUM and FreqFlow. Together with the 14 bundled implementations, these cover all 24 baseline names.
 - `tests/`: synthetic CPU regression tests; no traffic data or GPU is required.
 - [Baseline inventory](docs/BASELINES.md): all 24 baseline names in the current main comparison, with code availability and upstream references.
 - [Data and execution](docs/RUNNING.md), [version guide](docs/VERSIONS.md), and [third-party notices](THIRD_PARTY_NOTICES.md).
@@ -34,10 +35,19 @@ The core regression suite was exercised on CPU with PyTorch 2.8.0. This is a pac
 
 For training and data paths, see [RUNNING.md](docs/RUNNING.md). CLI defaults are examples or archived development settings, not a universal paper configuration.
 
-## Model selection
+## Download the remaining baselines
+
+```bash
+python tools/fetch_baselines.py --all
+python tools/fetch_baselines.py --all --check
+```
+
+The downloader locks seven upstream repositories to exact commits, retrieves source/configuration files into `third_party/upstream/`, and verifies file contents. It does not install dependencies or launch training. Individual model locations and interfaces are listed in [UPSTREAM_BASELINES.md](docs/UPSTREAM_BASELINES.md).
+
+## Model variants
 
 `default`, `default_direct_mae`, `data_space_fixed`, and `history_calendar_fixed` are different implementations/objectives. Select one explicitly and retain its configuration with its checkpoint. Do not interchange their checkpoints or infer their paper-table mapping from a filename. See [VERSIONS.md](docs/VERSIONS.md).
 
 ## Attribution and licensing
 
-Baseline copyrights and licenses remain with their original authors. Included license texts and upstream links are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Upstream-only entries are references, not vendored implementations. A repository-wide license for the original TrafficFM contributions has not yet been selected by the authors.
+Baseline copyrights and licenses remain with their original authors. Included license texts and upstream links are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Fixed-version dependencies are downloaded directly from upstream and are not mirrored in this repository. A repository-wide license for the original TrafficFM contributions has not yet been selected by the authors.
