@@ -13,6 +13,7 @@ This repository brings together TrafficFM and baseline implementations for traff
 - [Fixed-version upstream downloads](docs/UPSTREAM_BASELINES.md): DCRNN, DGCRN, GWNET, STGCN, HimNet, STD-MAE, TSFlow, UniST, STUM and FreqFlow. Together with the 14 bundled implementations, these cover all 24 baseline names.
 - `tests/`: synthetic CPU regression tests; no traffic data or GPU is required.
 - [Baseline inventory](docs/BASELINES.md): all 24 baseline names in the current main comparison, with code availability and upstream references.
+- [Original sources and clickable code entries](THIRD_PARTY_NOTICES.md#original-sources-and-code-entry-points): open the ten upstream models and training scripts directly in your browser.
 - [Dataset downloads](docs/DATASETS.md): METR-LA, PEMS-BAY, graph metadata and local data layout.
 - [Data and execution](docs/RUNNING.md), [version guide](docs/VERSIONS.md), and [third-party notices](THIRD_PARTY_NOTICES.md).
 

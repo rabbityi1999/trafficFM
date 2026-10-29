@@ -1,5 +1,7 @@
 # DGCRN
 
+[Original project description](https://github.com/trainingl/STG4Traffic/blob/00cf6bcf85da0333f67ff983dbbb59120fc1ac4d/README.md) · [Open model source](https://github.com/trainingl/STG4Traffic/blob/00cf6bcf85da0333f67ff983dbbb59120fc1ac4d/TrafficSpeed/model/DGCRN/net.py) · [Open training entry](https://github.com/trainingl/STG4Traffic/blob/00cf6bcf85da0333f67ff983dbbb59120fc1ac4d/TrafficSpeed/DGCRN/DGCRN_Main.py)
+
 Retrieve the pinned implementation from [STG4Traffic](https://github.com/trainingl/STG4Traffic) using the repository-root command:
 
 ```bash

@@ -1,5 +1,7 @@
 # FreqFlow
 
+[Original project description](https://github.com/moghadas76/Freq_Spect/blob/ecf0e354c9e8ec39d93392d0a8dadd9c8e2446d0/README.md) · [Open model source](https://github.com/moghadas76/Freq_Spect/blob/ecf0e354c9e8ec39d93392d0a8dadd9c8e2446d0/models/Flow_Spect.py) · [Open training entry](https://github.com/moghadas76/Freq_Spect/blob/ecf0e354c9e8ec39d93392d0a8dadd9c8e2446d0/run_longExp_F.py)
+
 Retrieve the pinned implementation from [FreqFlow](https://github.com/moghadas76/Freq_Spect) using the repository-root command:
 
 ```bash

@@ -1,5 +1,7 @@
 # TSFlow
 
+[Original project description](https://github.com/marcelkollovieh/TSFlow/blob/ff893176a41a1037f63efae674aab71480eee7d0/README.md) · [Open model source](https://github.com/marcelkollovieh/TSFlow/blob/ff893176a41a1037f63efae674aab71480eee7d0/tsflow/model/tsflow_cond.py) · [Open training entry](https://github.com/marcelkollovieh/TSFlow/blob/ff893176a41a1037f63efae674aab71480eee7d0/bin/train_model.py)
+
 Retrieve the pinned implementation from [TSFlow](https://github.com/marcelkollovieh/TSFlow) using the repository-root command:
 
 ```bash

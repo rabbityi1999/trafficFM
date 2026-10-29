@@ -1,5 +1,7 @@
 # STUM
 
+[Original project description](https://github.com/RWLinno/STUM/blob/3884fb50f3052f1be5d0d3a3b1aa95fb3e3e5af4/README.md) · [Open model source](https://github.com/RWLinno/STUM/blob/3884fb50f3052f1be5d0d3a3b1aa95fb3e3e5af4/src/stum/STUM.py) · [Open training entry](https://github.com/RWLinno/STUM/blob/3884fb50f3052f1be5d0d3a3b1aa95fb3e3e5af4/train_stum_ori.py)
+
 Retrieve the pinned implementation from [STUM](https://github.com/RWLinno/STUM) using the repository-root command:
 
 ```bash
