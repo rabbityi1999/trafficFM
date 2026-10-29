@@ -9,6 +9,8 @@ Packaging validation on 2026-10-29:
 - The tests exercise decoder/encoder gradients, optimizer updates, missing-target masks, sample axes, independent samples, Euler and alternative solvers, conditional guidance, checkpoint-version isolation, fractional time-of-day indexing, empirical CRPS, and STID output shape/gradient flow.
 - Python syntax compilation passed for the initial distributed source set.
 - `methods/TrafficFM/train_pems.py --help` passed.
-- `methods/baselines/STID/run_unified_144.py --help` passed. CSDI and DiffSTG CLI imports could not be tested in the core environment because `linear_attention_transformer` and `easydict`, respectively, are absent; these require separate baseline dependencies.
+- `methods/baselines/STID/run_unified_144.py --help` passed. CSDI and DiffSTG CLI import checks remain untested in the core environment; they require `linear_attention_transformer` and `easydict`, respectively.
 
-These checks do not constitute a traffic-data training run or numerical reproduction of every paper table. No new training, GPU allocation or test-set tuning was performed during packaging. Optional baseline dependencies are not part of the core CPU test environment.
+## Validation scope
+
+Completed checks cover CPU/offline regression tests, source retrieval and the CLI checks listed above. Full traffic-data training and numerical reproduction of the paper tables have not been validated in this release. Optional baseline dependencies are configured separately.

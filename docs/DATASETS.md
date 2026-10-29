@@ -9,7 +9,7 @@ TrafficFM uses METR-LA and PEMS-BAY traffic-speed data with five-minute sampling
 | METR-LA | 207 | `metr-la.h5` | [Google Drive](https://drive.google.com/drive/folders/10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX) |
 | PEMS-BAY | 325 | `pems-bay.h5` | [Google Drive](https://drive.google.com/drive/folders/10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX) |
 
-Both files are distributed through the shared folder linked by the [DCRNN data-preparation instructions](https://github.com/liyaguang/DCRNN#data-preparation). That page also lists a [Baidu mirror](https://pan.baidu.com/s/14Yy9isAIZYdU__OYEQGa_g). The source links were checked against the upstream README on 2026-10-29; the Baidu mirror could not be independently opened during this check.
+Both files are distributed through the shared folder linked by the [DCRNN data-preparation instructions](https://github.com/liyaguang/DCRNN#data-preparation). That page also lists a [Baidu mirror](https://pan.baidu.com/s/14Yy9isAIZYdU__OYEQGa_g). Source: the upstream README, checked on 2026-10-29. Baidu mirror availability is unverified.
 
 Sensor ordering, location and road-graph resources are available in the upstream [sensor_graph directory](https://github.com/liyaguang/DCRNN/tree/master/data/sensor_graph). Use metadata matching the selected dataset and retain its sensor ordering.
 

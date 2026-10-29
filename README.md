@@ -17,7 +17,7 @@ This repository brings together TrafficFM and baseline implementations for traff
 - [Dataset downloads](docs/DATASETS.md): METR-LA, PEMS-BAY, graph metadata and local data layout.
 - [Data and execution](docs/RUNNING.md), [version guide](docs/VERSIONS.md), and [third-party notices](THIRD_PARTY_NOTICES.md).
 
-This is an **initial source release**, not a regenerated leaderboard. Source availability, executable tests, and reproduction of a published table row are distinct statuses. The inventory records these separately. Datasets, trained weights, and historical run logs are not bundled.
+The release includes source code, baseline retrieval tools and CPU regression tests. Dataset downloads are linked separately; trained weights and historical run logs are not bundled. See [validation coverage](docs/VALIDATION.md) and [experiment records](docs/VERSIONS.md#experiment-records) for testing and checkpoint availability.
 
 ## Quick start
 
@@ -35,9 +35,9 @@ python -m pip install -r requirements-core.txt
 python -m unittest discover -s tests -v
 ```
 
-The core regression suite was exercised on CPU with PyTorch 2.8.0. This is a packaging-test environment, not a claim about the environment used for every paper experiment. Per-baseline requirements and optional packages must be installed separately; do not combine every baseline into one shared environment without resolving dependencies.
+CPU regression tests were run with PyTorch 2.8.0. Install model-specific requirements and optional packages in separate baseline environments.
 
-For training and data paths, see [RUNNING.md](docs/RUNNING.md). CLI defaults are examples or archived development settings, not a universal paper configuration.
+For training and data paths, see [RUNNING.md](docs/RUNNING.md). CLI defaults provide example or archived development configurations; select the model, objective and training budget explicitly.
 
 ## Download the remaining baselines
 
@@ -50,7 +50,7 @@ The downloader locks seven upstream repositories to exact commits, retrieves sou
 
 ## Model variants
 
-`default`, `default_direct_mae`, `data_space_fixed`, and `history_calendar_fixed` are different implementations/objectives. Select one explicitly and retain its configuration with its checkpoint. Do not interchange their checkpoints or infer their paper-table mapping from a filename. See [VERSIONS.md](docs/VERSIONS.md).
+`default`, `default_direct_mae`, `data_space_fixed`, and `history_calendar_fixed` are different implementations/objectives. Select one explicitly and retain its configuration with its checkpoint. Checkpoints must match the selected model and training objective. See [VERSIONS.md](docs/VERSIONS.md).
 
 ## Attribution and licensing
 

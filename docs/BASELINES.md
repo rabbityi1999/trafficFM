@@ -29,11 +29,11 @@ All 24 baseline names below occur in the current main comparison. **Bundled** me
 | UniST | Fixed-version fetch | `python tools/fetch_baselines.py --models UniST` |
 | VAR | Bundled + traffic runner | [Multivariate autoregression](../methods/baselines/VAR/README.md) |
 
-STG4Traffic upstream: https://github.com/trainingl/STG4Traffic. The benchmark adapters should not be conflated with an unmodified upstream release.
+STG4Traffic upstream: https://github.com/trainingl/STG4Traffic. Benchmark-specific loaders and runners adapt upstream implementations to the fixed-index traffic data format.
 
 ## Recorded upstream revisions
 
-These revisions identify upstream bases from the research checkout, not guarantees that local adapters were unmodified:
+The following commits identify the upstream bases. Source and distributed-file hashes for benchmark adaptations are recorded in `SOURCE_MANIFEST.json`:
 
 | Source | Recorded commit |
 |---|---|

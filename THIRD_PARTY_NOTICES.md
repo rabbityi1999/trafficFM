@@ -1,6 +1,6 @@
 # Third-party notices
 
-The sources below retain their original ownership and licenses. TrafficFM integration changes include fixed-index traffic loaders/runners, model adapters and import/path adjustments. Numerical implementation provenance is tracked in `SOURCE_MANIFEST.json` by source-file and distributed-file hashes. Upstream revisions are given where known; no unknown revision is fabricated.
+The sources below retain their original ownership and licenses. TrafficFM integration changes include fixed-index traffic loaders/runners, model adapters and import/path adjustments. Numerical implementation provenance is tracked in `SOURCE_MANIFEST.json` by source-file and distributed-file hashes. Available upstream revisions are listed below.
 
 | Component | Upstream | License text included |
 |---|---|---|
