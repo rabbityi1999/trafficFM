@@ -912,6 +912,48 @@
       "sha256": "1c6580ea2c36e857ba404226f2b543ad1efe49832ad5281d0182b89fbc55fa79",
       "source_sha256": "1c6580ea2c36e857ba404226f2b543ad1efe49832ad5281d0182b89fbc55fa79",
       "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Linear/model.py",
+      "sha256": "2c278ab0865ba18f8743d19310faa703a413481441ade4fd7b346fc8f607afd6",
+      "provenance": "repository implementation",
+      "implementation_version": 1,
+      "created": "2026-10-29"
+    },
+    {
+      "path": "methods/baselines/Linear/run_unified_144.py",
+      "sha256": "c46e209b3715b1710f49f2dabeed9019fd5ce9e8a14da070daab9bf7769ad0a7",
+      "provenance": "repository implementation",
+      "implementation_version": 1,
+      "created": "2026-10-29"
+    },
+    {
+      "path": "methods/baselines/VAR/model.py",
+      "sha256": "343b361ca9e389ec23945bb08272e75cb10398af7ab741bbd1c8eeae52e77289",
+      "provenance": "repository implementation",
+      "implementation_version": 1,
+      "created": "2026-10-29"
+    },
+    {
+      "path": "methods/baselines/VAR/run_unified_144.py",
+      "sha256": "2bbec7cc7ad45468b6c39101a8b24c814431909d553f97a54c278654ea482953",
+      "provenance": "repository implementation",
+      "implementation_version": 1,
+      "created": "2026-10-29"
+    },
+    {
+      "path": "methods/baselines/_simple_common.py",
+      "sha256": "b4ad44f33b4d2a2c29e17ffe3c05a269813f903ed668b52d600963fea1a10326",
+      "provenance": "repository implementation",
+      "implementation_version": 1,
+      "created": "2026-10-29"
+    },
+    {
+      "path": "tests/test_simple_baselines.py",
+      "sha256": "26e4d782b8b61d36291c4ea8490d282d546c2ed1b31310d1cbaafe5dca3f9dde",
+      "provenance": "repository implementation",
+      "implementation_version": 1,
+      "created": "2026-10-29"
     }
   ]
 }

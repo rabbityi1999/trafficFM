@@ -54,6 +54,10 @@ These runners resolve the fixed-index data directories relative to the repositor
 
 Additional packages include `pyyaml`, `linear-attention-transformer` (CSDI), `easydict`, `einops` (DiffSTG), and the packages imported by each selected model. Install these in a separate baseline environment as needed. This release has not rerun full traffic training.
 
+## Linear and VAR
+
+Linear and VAR have standalone fixed-index runners using `--dataset-dir` and a new `--output-dir`. See [Linear](../methods/baselines/Linear/README.md) for Adam training with validation selection and [VAR](../methods/baselines/VAR/README.md) for closed-form fitting and recursive forecasts. Both save their configuration, checkpoint, data/source hashes and original-scale point metrics.
+
 ## Time-Series-Library and PatchSTG
 
 Time-Series-Library includes its runner, model modules, layers, data providers and captured requirements. Some optional models require substantially different environments. Select only the model being reproduced. The captured requirements are not a tested lockfile for all models.

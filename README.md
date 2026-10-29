@@ -2,13 +2,14 @@
 
 Research code for **TrafficFM: Heterogeneity-Aware Conditional Flow Matching for Long-Horizon Traffic Forecasting**.
 
-This repository brings together TrafficFM implementations and the code sources used in its traffic-forecasting benchmark. The principal task is **144 historical steps → 144 future steps** at five-minute resolution on **METR-LA (207 sensors)** and **PEMS-BAY (325 sensors)**.
+This repository brings together TrafficFM and baseline implementations for traffic forecasting. The principal task is **144 historical steps → 144 future steps** at five-minute resolution on **METR-LA (207 sensors)** and **PEMS-BAY (325 sensors)**.
 
 ## Release contents
 
 - `methods/TrafficFM/`: model variants, training engines, and evaluation entry points.
 - `methods/baselines/Time-Series-Library/`: Autoformer, DLinear, FEDformer, Informer, iTransformer, LightTS, PatchTST, Transformer, and supporting library modules.
 - `methods/baselines/{CSDI,DiffSTG,STID,PatchSTG}/`: baseline implementations and available traffic adapters.
+- [Linear](methods/baselines/Linear/README.md) and [VAR](methods/baselines/VAR/README.md): direct temporal projection and multivariate autoregression, with training/fitting, checkpoint saving and fixed-index evaluation.
 - `tests/`: synthetic CPU regression tests; no traffic data or GPU is required.
 - [Baseline inventory](docs/BASELINES.md): all 24 baseline names in the current main comparison, with code availability and upstream references.
 - [Data and execution](docs/RUNNING.md), [version guide](docs/VERSIONS.md), and [third-party notices](THIRD_PARTY_NOTICES.md).

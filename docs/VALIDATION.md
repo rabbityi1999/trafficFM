@@ -2,7 +2,8 @@
 
 Packaging validation on 2026-10-29:
 
-- 16 synthetic CPU tests passed via `python -m unittest discover -s tests -v`.
+- 28 synthetic CPU tests passed via `python -m unittest discover -s tests -v`.
+- Linear/VAR checks cover temporal axes, per-sensor projections, gradients, explicit VAR design-matrix equivalence, lag/source/target orientation, recursive forecasts, training-only row selection, singular systems, checkpoint roundtrips, causal filling, masked metrics, split boundaries and both end-to-end CLI runs on synthetic data.
 - The tests exercise decoder/encoder gradients, optimizer updates, missing-target masks, sample axes, independent samples, Euler and alternative solvers, conditional guidance, checkpoint-version isolation, fractional time-of-day indexing, empirical CRPS, and STID output shape/gradient flow.
 - Python syntax compilation passed for the initial distributed source set.
 - `methods/TrafficFM/train_pems.py --help` passed.
