@@ -1,0 +1,917 @@
+{
+  "description": "Source hashes identify the research snapshot; distributed hashes identify this release. No paper-score equivalence is implied.",
+  "files": [
+    {
+      "path": "methods/TrafficFM/engine.py",
+      "sha256": "bb2d3478a1c829155aaf8cba0ee13eea2ffef12dcee3aa1dea90bbc8e1add49f",
+      "source_sha256": "bb2d3478a1c829155aaf8cba0ee13eea2ffef12dcee3aa1dea90bbc8e1add49f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/eval_checkpoint_metrics.py",
+      "sha256": "fa04b35d16e43d4b38388c6c035f402bf46e27d38ffe137a9438f29e5905e6ef",
+      "source_sha256": "fa04b35d16e43d4b38388c6c035f402bf46e27d38ffe137a9438f29e5905e6ef",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/eval_probabilistic_144.py",
+      "sha256": "d9edefea90fdad5bcc19d1e7a2659df39a76a7b636836ca12b44b0b43e6483df",
+      "source_sha256": "d9edefea90fdad5bcc19d1e7a2659df39a76a7b636836ca12b44b0b43e6483df",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/model.py",
+      "sha256": "466b5ed422ec1c5df8f1c18c0cc78d7051f52671d2cb806f3dabaff573457a4d",
+      "source_sha256": "466b5ed422ec1c5df8f1c18c0cc78d7051f52671d2cb806f3dabaff573457a4d",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/ablation_no_cross_atten.py",
+      "sha256": "8950d0a3464d35f35eaa58e205aaf894cc23f11b2a21e083696662a7202127d8",
+      "source_sha256": "8950d0a3464d35f35eaa58e205aaf894cc23f11b2a21e083696662a7202127d8",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/ablation_no_film.py",
+      "sha256": "fc4db08e3a03f61744df00d1828163a9a660da4f9e2299a05a957d4e11b0da88",
+      "source_sha256": "fc4db08e3a03f61744df00d1828163a9a660da4f9e2299a05a957d4e11b0da88",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/ablation_no_flow.py",
+      "sha256": "d0088d1163ac60aeaa63aca3faa3fc98c360313d600fc1cc6f207cbcd582bacd",
+      "source_sha256": "d0088d1163ac60aeaa63aca3faa3fc98c360313d600fc1cc6f207cbcd582bacd",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/ablation_no_patching.py",
+      "sha256": "014aaadef32deaa586963e0f63ae896cb721285cecc943ff5090db5196702d3f",
+      "source_sha256": "014aaadef32deaa586963e0f63ae896cb721285cecc943ff5090db5196702d3f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/data_space_fixed.py",
+      "sha256": "796b68da02aff3d4f64d72507da1067843dbafbb384ff21f6bd1bda70a9f12d3",
+      "source_sha256": "796b68da02aff3d4f64d72507da1067843dbafbb384ff21f6bd1bda70a9f12d3",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/default.py",
+      "sha256": "afac424b94628400b49ec2f5f6bbc17a2e89fe3ba88fc5ac91eccbaca743a0d8",
+      "source_sha256": "afac424b94628400b49ec2f5f6bbc17a2e89fe3ba88fc5ac91eccbaca743a0d8",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/default_diffusion.py",
+      "sha256": "11a59910be7ef08d04f1bef8db91cc54b0e38017b1d9b08f63634de0d5c623ea",
+      "source_sha256": "11a59910be7ef08d04f1bef8db91cc54b0e38017b1d9b08f63634de0d5c623ea",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/default_direct_mae.py",
+      "sha256": "c489f799b82269af8cd43e1f6c17a57935b267d5a61c1c183971993bfb3579eb",
+      "source_sha256": "c489f799b82269af8cd43e1f6c17a57935b267d5a61c1c183971993bfb3579eb",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/default_direct_mse.py",
+      "sha256": "5baf693c00c4f9794dfe75ec3cc6a646d01a235d7a6c2e28e5572f50282628f2",
+      "source_sha256": "5baf693c00c4f9794dfe75ec3cc6a646d01a235d7a6c2e28e5572f50282628f2",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/diffusion.py",
+      "sha256": "5579fd2671c2690f77119ba40b3f0ef270f9edefa4a23e17c2c91fe1aff59515",
+      "source_sha256": "5579fd2671c2690f77119ba40b3f0ef270f9edefa4a23e17c2c91fe1aff59515",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/fixed_cross_atten.py",
+      "sha256": "b1cce654f2b623075dc7be523e19229fd71c5418e04d49bd54a47bd6ecb3b94a",
+      "source_sha256": "b1cce654f2b623075dc7be523e19229fd71c5418e04d49bd54a47bd6ecb3b94a",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/models/no_meta_modulation.py",
+      "sha256": "e1774ef3408d627d4c27315d6ab6b2c3e418e74eb355ea648c6a206acbf0ea09",
+      "source_sha256": "e1774ef3408d627d4c27315d6ab6b2c3e418e74eb355ea648c6a206acbf0ea09",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/table2_probabilistic_evaluator.py",
+      "sha256": "ad0224ace3942f62bfa5e80e738c6bb41237f34856d88a792bc4d378e405563b",
+      "source_sha256": "ad0224ace3942f62bfa5e80e738c6bb41237f34856d88a792bc4d378e405563b",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/train_metr.py",
+      "sha256": "9c61bc339bb60ed644f76c76e592b86ad2066f6091a923bcdf213b03e6c4c3a6",
+      "source_sha256": "9c61bc339bb60ed644f76c76e592b86ad2066f6091a923bcdf213b03e6c4c3a6",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/train_pems.py",
+      "sha256": "eb0741c867f7b6d7ad7d4a4f14bada1c5c0e37eea529ccfc4fe11c8e018cf6e5",
+      "source_sha256": "eb0741c867f7b6d7ad7d4a4f14bada1c5c0e37eea529ccfc4fe11c8e018cf6e5",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/transition_eval.py",
+      "sha256": "ee7741d9dbeb668057cc3fe0a27e349ae5593c1ae267e753b80d03ee4de79b2f",
+      "source_sha256": "ee7741d9dbeb668057cc3fe0a27e349ae5593c1ae267e753b80d03ee4de79b2f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/TrafficFM/util.py",
+      "sha256": "7d5e4f4f1be7b45fe53f2a74aef12436d5a9d8ff61dbcc3e6f0e8b56d6baf5ab",
+      "source_sha256": "7d5e4f4f1be7b45fe53f2a74aef12436d5a9d8ff61dbcc3e6f0e8b56d6baf5ab",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/data_provider/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/data_provider/data_factory.py",
+      "sha256": "8034b4a9b624d358e0a33fe584b3575c9b61c8aff6ee30537a865a126b63ad9a",
+      "source_sha256": "8034b4a9b624d358e0a33fe584b3575c9b61c8aff6ee30537a865a126b63ad9a",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/data_provider/data_loader.py",
+      "sha256": "987c9158604739b4739b6dd10acee5beaee2009cece6b25cf925a45a87d77c3e",
+      "source_sha256": "987c9158604739b4739b6dd10acee5beaee2009cece6b25cf925a45a87d77c3e",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/data_provider/generate_csv_data.py",
+      "sha256": "55d23749b99e156df14dcdfdac4528e84898ec3ff10582b7f2de4b7ab5681d86",
+      "source_sha256": "55d23749b99e156df14dcdfdac4528e84898ec3ff10582b7f2de4b7ab5681d86",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/data_provider/m4.py",
+      "sha256": "88cb5d523690142f4a3d68fbc92d783bb41fc1034f63849ba85c4fb3268dfad0",
+      "source_sha256": "88cb5d523690142f4a3d68fbc92d783bb41fc1034f63849ba85c4fb3268dfad0",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/data_provider/uea.py",
+      "sha256": "49e011c8119fa791296dd930a688c075d05a1c13e2f37e06495e569521eb348e",
+      "source_sha256": "49e011c8119fa791296dd930a688c075d05a1c13e2f37e06495e569521eb348e",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/exp/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/exp/exp_anomaly_detection.py",
+      "sha256": "052ac8b9cc050d0106f0e7b1568cc683d215615b8a517c24010a36d5b0bbf726",
+      "source_sha256": "052ac8b9cc050d0106f0e7b1568cc683d215615b8a517c24010a36d5b0bbf726",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/exp/exp_basic.py",
+      "sha256": "eac054c60143f5ba61a47366cbfa89450dd46556fa6ebbce03bc2934877080bf",
+      "source_sha256": "eac054c60143f5ba61a47366cbfa89450dd46556fa6ebbce03bc2934877080bf",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/exp/exp_classification.py",
+      "sha256": "5c98497b43cd3ddf1199d28a0da4dbf588f81de6eb8b450009c265a2173a6aad",
+      "source_sha256": "5c98497b43cd3ddf1199d28a0da4dbf588f81de6eb8b450009c265a2173a6aad",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/exp/exp_imputation.py",
+      "sha256": "dc7de094623126ce8092a5ccc4874e817d7a46a2f956fcefb78bc43ad28f4ade",
+      "source_sha256": "dc7de094623126ce8092a5ccc4874e817d7a46a2f956fcefb78bc43ad28f4ade",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/exp/exp_long_term_forecasting.py",
+      "sha256": "ecfe610df785f9888baf06029c5169c1e123f20a369ec90a7638713e3be2d47d",
+      "source_sha256": "ecfe610df785f9888baf06029c5169c1e123f20a369ec90a7638713e3be2d47d",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/exp/exp_short_term_forecasting.py",
+      "sha256": "0827693e4fcb93d29739890c499e9314cdc63989bee51c14963c3d6a1eb8b228",
+      "source_sha256": "0827693e4fcb93d29739890c499e9314cdc63989bee51c14963c3d6a1eb8b228",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/exp/exp_zero_shot_forecasting.py",
+      "sha256": "4d05f624068e00539c3c28c46ba44b690a618ff2b5ae26915cbfa6d141e4d81d",
+      "source_sha256": "4d05f624068e00539c3c28c46ba44b690a618ff2b5ae26915cbfa6d141e4d81d",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/AutoCorrelation.py",
+      "sha256": "354b44e54bdd39380c9f5c2bfaaf3b967fdbe80dc7998741dbfdfa5d521a040c",
+      "source_sha256": "354b44e54bdd39380c9f5c2bfaaf3b967fdbe80dc7998741dbfdfa5d521a040c",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/Autoformer_EncDec.py",
+      "sha256": "48745b4bb647355e9845792a855df9c59fd7df7fcc664c765351fec390c4073e",
+      "source_sha256": "48745b4bb647355e9845792a855df9c59fd7df7fcc664c765351fec390c4073e",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/Conv_Blocks.py",
+      "sha256": "16d9f2d9e4fa094dc357901e32beecda9839709bcca02625e6447186933ce4e1",
+      "source_sha256": "16d9f2d9e4fa094dc357901e32beecda9839709bcca02625e6447186933ce4e1",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/Crossformer_EncDec.py",
+      "sha256": "ee2cc5c8d3a44f4de67ce986e6b442488826a20fa4d8f87991941a75587936a1",
+      "source_sha256": "ee2cc5c8d3a44f4de67ce986e6b442488826a20fa4d8f87991941a75587936a1",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/DWT_Decomposition.py",
+      "sha256": "422af1eec77df1b9dcfdea3d457e545c8575da69da4f505f27ba54db0c9f7764",
+      "source_sha256": "422af1eec77df1b9dcfdea3d457e545c8575da69da4f505f27ba54db0c9f7764",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/Embed.py",
+      "sha256": "17e7c3577324c41a0da427a199c955b782fde905aabb1f7cbc3c4e15ebd4ae35",
+      "source_sha256": "17e7c3577324c41a0da427a199c955b782fde905aabb1f7cbc3c4e15ebd4ae35",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/ETSformer_EncDec.py",
+      "sha256": "4ba2a0b76381602e32341fcc1a6a74ca86d2347905589fb34a74f8e54d7023e3",
+      "source_sha256": "4ba2a0b76381602e32341fcc1a6a74ca86d2347905589fb34a74f8e54d7023e3",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/FourierCorrelation.py",
+      "sha256": "cea1095b3a94764f240e6ac67280d6ea7fac9f5ef54de137cd1f5e5adab1305f",
+      "source_sha256": "cea1095b3a94764f240e6ac67280d6ea7fac9f5ef54de137cd1f5e5adab1305f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/MSGBlock.py",
+      "sha256": "01d3d446a214c33062ba098f251a1e49ed8a342dd4372e973a0a8c0dde5cd8c0",
+      "source_sha256": "01d3d446a214c33062ba098f251a1e49ed8a342dd4372e973a0a8c0dde5cd8c0",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/MultiWaveletCorrelation.py",
+      "sha256": "cf0b8faf45a1b7fab4a3c1c521623c0762e2f9d7375b20ba9a9acd2142747342",
+      "source_sha256": "cf0b8faf45a1b7fab4a3c1c521623c0762e2f9d7375b20ba9a9acd2142747342",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/Pyraformer_EncDec.py",
+      "sha256": "ab92396677a9ad2e49c7bf171e15c96108d388b8898d29ee520d18dfe0bd5306",
+      "source_sha256": "ab92396677a9ad2e49c7bf171e15c96108d388b8898d29ee520d18dfe0bd5306",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/SelfAttention_Family.py",
+      "sha256": "efad0596cd12233fba244a505fe4b0721b05d12fd29377ee5f2ad00187445d16",
+      "source_sha256": "efad0596cd12233fba244a505fe4b0721b05d12fd29377ee5f2ad00187445d16",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/StandardNorm.py",
+      "sha256": "3f690dc5fc0e395d4f1ffe6396717548d18bd04f4518258308bbe5f392703f5f",
+      "source_sha256": "3f690dc5fc0e395d4f1ffe6396717548d18bd04f4518258308bbe5f392703f5f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/TimeFilter_layers.py",
+      "sha256": "3441713bdb54de1153afe3d5e746de4e251c07b545492180a073c4f275df6b9f",
+      "source_sha256": "3441713bdb54de1153afe3d5e746de4e251c07b545492180a073c4f275df6b9f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/layers/Transformer_EncDec.py",
+      "sha256": "7b26f4459735c341f161011f6bc24b9deb8ecc3bcf61e4f15431998272a44fb4",
+      "source_sha256": "7b26f4459735c341f161011f6bc24b9deb8ecc3bcf61e4f15431998272a44fb4",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/__init__.py",
+      "sha256": "7dbb9d65173d8f30380bb749df589317f9c53c217d86e31f789062ef5a79d5fe",
+      "source_sha256": "7dbb9d65173d8f30380bb749df589317f9c53c217d86e31f789062ef5a79d5fe",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Autoformer.py",
+      "sha256": "e7d31b5071e4412bcece030f343450d2ca93932988ee912b95058d9955473810",
+      "source_sha256": "e7d31b5071e4412bcece030f343450d2ca93932988ee912b95058d9955473810",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Chronos.py",
+      "sha256": "7386167682450aeaf40fd6faaf07444f4bc95348d7a59c4793451c9815e70965",
+      "source_sha256": "7386167682450aeaf40fd6faaf07444f4bc95348d7a59c4793451c9815e70965",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Chronos2.py",
+      "sha256": "093198a31974e720e72c1f438640334dabc5a8cfc88546e8b02e4ade85d80e5a",
+      "source_sha256": "093198a31974e720e72c1f438640334dabc5a8cfc88546e8b02e4ade85d80e5a",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Crossformer.py",
+      "sha256": "f5892f70eb3fc320f69fa0a9b2019b68537cc5a5e5aa2ec544c15127b19e36f0",
+      "source_sha256": "f5892f70eb3fc320f69fa0a9b2019b68537cc5a5e5aa2ec544c15127b19e36f0",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/DLinear.py",
+      "sha256": "e03acaf97e70c85ea6bda6776b3a62550f84470afa7bc53dffccb6121626e7eb",
+      "source_sha256": "e03acaf97e70c85ea6bda6776b3a62550f84470afa7bc53dffccb6121626e7eb",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/ETSformer.py",
+      "sha256": "3cd25f1ea4dc18e926720b2976d86820363dcc5db0436e490f2b794630086035",
+      "source_sha256": "3cd25f1ea4dc18e926720b2976d86820363dcc5db0436e490f2b794630086035",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/FEDformer.py",
+      "sha256": "2d9051784362cf848f061cfec9038aff8ec2bb3047abdffe47f0ad0abdf88e62",
+      "source_sha256": "2d9051784362cf848f061cfec9038aff8ec2bb3047abdffe47f0ad0abdf88e62",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/FiLM.py",
+      "sha256": "866054afc57411ebaf47c270566c05302b19acf3a3663b0b86e9153e386d2dc6",
+      "source_sha256": "866054afc57411ebaf47c270566c05302b19acf3a3663b0b86e9153e386d2dc6",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/FreTS.py",
+      "sha256": "2b6c9e0cd3d4f42bc74736343147812db94f029f1a8b13b098b9841705de5c18",
+      "source_sha256": "2b6c9e0cd3d4f42bc74736343147812db94f029f1a8b13b098b9841705de5c18",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Informer.py",
+      "sha256": "95dee85f6c0642dbfeee7736d526f9e20a54b5f5871a7085343b6a8be3cf56d2",
+      "source_sha256": "95dee85f6c0642dbfeee7736d526f9e20a54b5f5871a7085343b6a8be3cf56d2",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/iTransformer.py",
+      "sha256": "7fdc721d041b0f8f63be8fa794ecd68422fd958c7c8d449026320fd9f368788e",
+      "source_sha256": "7fdc721d041b0f8f63be8fa794ecd68422fd958c7c8d449026320fd9f368788e",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/KANAD.py",
+      "sha256": "8503dc8fffb3c1c5212c60da9d645c28ecf590ef5846d37dea9bcc6568f7e95d",
+      "source_sha256": "8503dc8fffb3c1c5212c60da9d645c28ecf590ef5846d37dea9bcc6568f7e95d",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Koopa.py",
+      "sha256": "056464ecec26ff00893f8ff4c372992c1c46c0563990d7c0593a945b8d7c4402",
+      "source_sha256": "056464ecec26ff00893f8ff4c372992c1c46c0563990d7c0593a945b8d7c4402",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/LightTS.py",
+      "sha256": "1de1583c4ee0bbfa0764fa9b158f09ac8bcd7ddf7f2d9f1b58ab1a03a7d13989",
+      "source_sha256": "1de1583c4ee0bbfa0764fa9b158f09ac8bcd7ddf7f2d9f1b58ab1a03a7d13989",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Mamba.py",
+      "sha256": "de6c2ce01371e8cc7b0524df8caffaf299b58d093c4096661ad4cc66d216595e",
+      "source_sha256": "de6c2ce01371e8cc7b0524df8caffaf299b58d093c4096661ad4cc66d216595e",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/MambaSimple.py",
+      "sha256": "0d8251e73c4b74eff403bf913bb4277bbc9427f69a419767121dc7ea0d0f6a95",
+      "source_sha256": "0d8251e73c4b74eff403bf913bb4277bbc9427f69a419767121dc7ea0d0f6a95",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/MICN.py",
+      "sha256": "a0cb59254e850bfd1d94114a73126c290e6baf2ea700132ede8aade680bbedbf",
+      "source_sha256": "a0cb59254e850bfd1d94114a73126c290e6baf2ea700132ede8aade680bbedbf",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Moirai.py",
+      "sha256": "f387c8ff2f06d37893d0c72bf93cf509e68e270c51da7887dbefbda02879ab41",
+      "source_sha256": "f387c8ff2f06d37893d0c72bf93cf509e68e270c51da7887dbefbda02879ab41",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/MSGNet.py",
+      "sha256": "e6f8f3fbd4e0bc9d77c78e2409969c4fe4b2fc6560e7c1f5cced2a809d8e9e59",
+      "source_sha256": "e6f8f3fbd4e0bc9d77c78e2409969c4fe4b2fc6560e7c1f5cced2a809d8e9e59",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/MultiPatchFormer.py",
+      "sha256": "e8603a9d8b1e796a822171399a057bd3945cf51b38fb1661d91fe60ad79313b3",
+      "source_sha256": "e8603a9d8b1e796a822171399a057bd3945cf51b38fb1661d91fe60ad79313b3",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Nonstationary_Transformer.py",
+      "sha256": "8c12c8bddbfe7414a87efee19f019079e62e9ad7cc4e7627cb25d2886ae60c33",
+      "source_sha256": "8c12c8bddbfe7414a87efee19f019079e62e9ad7cc4e7627cb25d2886ae60c33",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/PatchTST.py",
+      "sha256": "29835d4fedddd3cbee26cc60d6a54c04513f5a9ca32e4a0d08de2c9e059084e5",
+      "source_sha256": "29835d4fedddd3cbee26cc60d6a54c04513f5a9ca32e4a0d08de2c9e059084e5",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/PAttn.py",
+      "sha256": "04a11e5b15afd261e005982c76424b219303114a3b32bfe3da00d1df862dae88",
+      "source_sha256": "04a11e5b15afd261e005982c76424b219303114a3b32bfe3da00d1df862dae88",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Pyraformer.py",
+      "sha256": "6ec9a21d56fa47b81b706b05b7caf76f440daf3cb4ffe2dca9d2f149b02dd877",
+      "source_sha256": "6ec9a21d56fa47b81b706b05b7caf76f440daf3cb4ffe2dca9d2f149b02dd877",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Reformer.py",
+      "sha256": "d559a572111615a3a6c0b2ed25e29a2678997a6406d44814aba97b24c1c63517",
+      "source_sha256": "d559a572111615a3a6c0b2ed25e29a2678997a6406d44814aba97b24c1c63517",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/SCINet.py",
+      "sha256": "06dcae9cfce5d3dc09e8db9b537479421848ee678ffbd1d3ca0b5c335a1baf25",
+      "source_sha256": "06dcae9cfce5d3dc09e8db9b537479421848ee678ffbd1d3ca0b5c335a1baf25",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/SegRNN.py",
+      "sha256": "764d4ad950ee65162c70746248754942cfb4ba661162d515caab0a4eedd12252",
+      "source_sha256": "764d4ad950ee65162c70746248754942cfb4ba661162d515caab0a4eedd12252",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Sundial.py",
+      "sha256": "4acd97dbda41f644cda908c98178b9995b1853d707aba22dc21bbd9e56c74ae5",
+      "source_sha256": "4acd97dbda41f644cda908c98178b9995b1853d707aba22dc21bbd9e56c74ae5",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TemporalFusionTransformer.py",
+      "sha256": "f1b348f304bcf8954059eaa356a2b2bafd73c2278e85bd62be5f794e73e59388",
+      "source_sha256": "f1b348f304bcf8954059eaa356a2b2bafd73c2278e85bd62be5f794e73e59388",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TiDE.py",
+      "sha256": "4ab07dec4ae85f8b7c3062ff7d2fec00be342968d41cf09e48d599d8e40f6143",
+      "source_sha256": "4ab07dec4ae85f8b7c3062ff7d2fec00be342968d41cf09e48d599d8e40f6143",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TimeFilter.py",
+      "sha256": "6cbce92f112a9907fe6117ea23527bf1864c0ea00721a812d786e86e0a1b0724",
+      "source_sha256": "6cbce92f112a9907fe6117ea23527bf1864c0ea00721a812d786e86e0a1b0724",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TimeMixer.py",
+      "sha256": "8da10910bdff0970bcd0751d9d9eae8cf1c492d9db85d03706b731aaf9ac16ac",
+      "source_sha256": "8da10910bdff0970bcd0751d9d9eae8cf1c492d9db85d03706b731aaf9ac16ac",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TimeMoE.py",
+      "sha256": "6be52df6633b9c2086bd1c002588b5801e917531ebebde8abcf9787005ead4d5",
+      "source_sha256": "6be52df6633b9c2086bd1c002588b5801e917531ebebde8abcf9787005ead4d5",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TimesFM.py",
+      "sha256": "f313b35e7f4a3e97d946c443381e0a7568f2d1222bb58889439a1662de78f2b2",
+      "source_sha256": "f313b35e7f4a3e97d946c443381e0a7568f2d1222bb58889439a1662de78f2b2",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TimesNet.py",
+      "sha256": "f64c4bed1fd7347090044a0163bd4209c9f9ec1c1b19ceff47842df36b64bba7",
+      "source_sha256": "f64c4bed1fd7347090044a0163bd4209c9f9ec1c1b19ceff47842df36b64bba7",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TimeXer.py",
+      "sha256": "b334d7869544d0a5de7a35501d0342d7bd0be4ebda06ccc045855a42819728c0",
+      "source_sha256": "b334d7869544d0a5de7a35501d0342d7bd0be4ebda06ccc045855a42819728c0",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TiRex.py",
+      "sha256": "7278b0b51d0cd085135f5fd21c930dd0e616919ec059b91c78c1e32605f7f851",
+      "source_sha256": "7278b0b51d0cd085135f5fd21c930dd0e616919ec059b91c78c1e32605f7f851",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/Transformer.py",
+      "sha256": "46ded6c516fd03951bce0a82c3f4245f0247efd01fb5bde775145cfbb6d8435d",
+      "source_sha256": "46ded6c516fd03951bce0a82c3f4245f0247efd01fb5bde775145cfbb6d8435d",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/TSMixer.py",
+      "sha256": "a82942ddc22cba59f4161f3ea480eb0e474eba6f0ab2d13f2bd949f100b2ce87",
+      "source_sha256": "a82942ddc22cba59f4161f3ea480eb0e474eba6f0ab2d13f2bd949f100b2ce87",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/models/WPMixer.py",
+      "sha256": "5b549f5454864d19a230747f0060dc00732fb0de6b50a359173e0d7a6b04ce8f",
+      "source_sha256": "5b549f5454864d19a230747f0060dc00732fb0de6b50a359173e0d7a6b04ce8f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/requirements.txt",
+      "sha256": "d5616f6296d8a57b7128e139ee4583e04b4d9c8da0288bc62a1e53c3f3786ba5",
+      "source_sha256": "d5616f6296d8a57b7128e139ee4583e04b4d9c8da0288bc62a1e53c3f3786ba5",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/run.py",
+      "sha256": "dd48a9336896de578f19f4e60a103c21360de02d09965c7f38780e0fa94a0b55",
+      "source_sha256": "dd48a9336896de578f19f4e60a103c21360de02d09965c7f38780e0fa94a0b55",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/ADFtest.py",
+      "sha256": "fcc30ead66778d2f70409740f8d54287fbeb032cd080695879a370722f7a4b26",
+      "source_sha256": "fcc30ead66778d2f70409740f8d54287fbeb032cd080695879a370722f7a4b26",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/augmentation.py",
+      "sha256": "17bac803a96fb6c98d0822052c1edc9f6bc72ae37eec5aa859e9e2918d537b69",
+      "source_sha256": "17bac803a96fb6c98d0822052c1edc9f6bc72ae37eec5aa859e9e2918d537b69",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/dtw.py",
+      "sha256": "a12084ab35783e4c09ddfadb54b0253f1fa8a3499abd88c772f93f499bcffa2a",
+      "source_sha256": "a12084ab35783e4c09ddfadb54b0253f1fa8a3499abd88c772f93f499bcffa2a",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/dtw_metric.py",
+      "sha256": "308c56507b01a945f38796f2f9b4bb104adc213ab574aa2693f93635c9748889",
+      "source_sha256": "308c56507b01a945f38796f2f9b4bb104adc213ab574aa2693f93635c9748889",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/losses.py",
+      "sha256": "d7f924f9abdf9dbbf097b60329a25ad727b163111014954ebf5856370a1aa116",
+      "source_sha256": "d7f924f9abdf9dbbf097b60329a25ad727b163111014954ebf5856370a1aa116",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/m4_summary.py",
+      "sha256": "bfc7ba06736c3919b4542b0e68a15280642d80989a7f837132121136e8a4e8a7",
+      "source_sha256": "bfc7ba06736c3919b4542b0e68a15280642d80989a7f837132121136e8a4e8a7",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/masking.py",
+      "sha256": "02f453e52cfaec65e34132923add80e7132f188706680fa86d7bd884976e09ef",
+      "source_sha256": "02f453e52cfaec65e34132923add80e7132f188706680fa86d7bd884976e09ef",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/metrics.py",
+      "sha256": "0a565c3f64d7cd29d9a87dee0c22d48f4a6a329476f893458cc18a35fa46a5df",
+      "source_sha256": "0a565c3f64d7cd29d9a87dee0c22d48f4a6a329476f893458cc18a35fa46a5df",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/print_args.py",
+      "sha256": "423454ec7e2cefe6d24a458903f6080e866efdbe78c0ac2481b2cf32d44c558a",
+      "source_sha256": "423454ec7e2cefe6d24a458903f6080e866efdbe78c0ac2481b2cf32d44c558a",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/timefeatures.py",
+      "sha256": "319b3da2ef15ccae95162b1b4f4a9a0b0da63fa0062a7f6006a06dd567258d85",
+      "source_sha256": "319b3da2ef15ccae95162b1b4f4a9a0b0da63fa0062a7f6006a06dd567258d85",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/Time-Series-Library/utils/tools.py",
+      "sha256": "f47237f29d2a27570ef11871d9acdc51d1742b3bd1d8d09e5226e4140f4ad024",
+      "source_sha256": "f47237f29d2a27570ef11871d9acdc51d1742b3bd1d8d09e5226e4140f4ad024",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/config/base.yaml",
+      "sha256": "a492e8e1f682cec19549da2c7f4e13cf04067f6db260142a0243aba3daaab0e7",
+      "source_sha256": "a492e8e1f682cec19549da2c7f4e13cf04067f6db260142a0243aba3daaab0e7",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/config/base_forecasting.yaml",
+      "sha256": "99d39c52905b0c9a6569bbd4160280a149305ce3dcfcda99975952106756ef3a",
+      "source_sha256": "99d39c52905b0c9a6569bbd4160280a149305ce3dcfcda99975952106756ef3a",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/config/traffic144_pemsbay_prelim.yaml",
+      "sha256": "2c0cb1c49d4e3a86b22e459e44374c1d8205ab58ed3e627d07e4ea41ef8e8ba0",
+      "source_sha256": "2c0cb1c49d4e3a86b22e459e44374c1d8205ab58ed3e627d07e4ea41ef8e8ba0",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/config/traffic144_prelim.yaml",
+      "sha256": "9f095e4e43a941e9dbb0cddab2464d3c2acd5bf9ec05cde47cfd19372e65b975",
+      "source_sha256": "9f095e4e43a941e9dbb0cddab2464d3c2acd5bf9ec05cde47cfd19372e65b975",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/config/traffic144_smoke.yaml",
+      "sha256": "7e476ab746a2f2b15fb70591999cc9824839cdbfabee1c4558ea57150100d80d",
+      "source_sha256": "7e476ab746a2f2b15fb70591999cc9824839cdbfabee1c4558ea57150100d80d",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/dataset_forecasting.py",
+      "sha256": "f5f796b338ea95e8cc1f4a9d9c73250b10cc646751aaff434a4a83d784f3d640",
+      "source_sha256": "f5f796b338ea95e8cc1f4a9d9c73250b10cc646751aaff434a4a83d784f3d640",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/dataset_physio.py",
+      "sha256": "a79fd1def63b39da5bcd9a9fd897df9ae834e097188f6289f8e75ae704a2adcc",
+      "source_sha256": "a79fd1def63b39da5bcd9a9fd897df9ae834e097188f6289f8e75ae704a2adcc",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/dataset_pm25.py",
+      "sha256": "923a0e9e095b6e361039c4ca909dd6819145fe4d6452c0916cf28f7f4b742710",
+      "source_sha256": "923a0e9e095b6e361039c4ca909dd6819145fe4d6452c0916cf28f7f4b742710",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/dataset_traffic.py",
+      "sha256": "64171026a07c8507b492ca347bd37a0fab631188b9d22d88a3e94fa2599ff0d9",
+      "source_sha256": "64171026a07c8507b492ca347bd37a0fab631188b9d22d88a3e94fa2599ff0d9",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/diff_models.py",
+      "sha256": "1271c5ba574eb7271174e8817ddd102adcfeb540236ea135a197b5f49a56d24f",
+      "source_sha256": "1271c5ba574eb7271174e8817ddd102adcfeb540236ea135a197b5f49a56d24f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/download.py",
+      "sha256": "bae8ad2de3d73db4f84217c6b8e9ec26638153283117dad43df1694e02fc09b2",
+      "source_sha256": "bae8ad2de3d73db4f84217c6b8e9ec26638153283117dad43df1694e02fc09b2",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/eval_traffic_metrics.py",
+      "sha256": "37132d68c511737e414c9e5020a394a39f80b2e3308409434489214feb27eb32",
+      "source_sha256": "37132d68c511737e414c9e5020a394a39f80b2e3308409434489214feb27eb32",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/exe_forecasting.py",
+      "sha256": "4587052dd2c17d0cb3e83249fe50fe66722f708699c7f66326c50de3dfb358b5",
+      "source_sha256": "4587052dd2c17d0cb3e83249fe50fe66722f708699c7f66326c50de3dfb358b5",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/exe_physio.py",
+      "sha256": "8d50d41f021c777728319c201c0956d0d107c0d58a5c23870a1730633b79c136",
+      "source_sha256": "8d50d41f021c777728319c201c0956d0d107c0d58a5c23870a1730633b79c136",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/exe_pm25.py",
+      "sha256": "37cdf1ae07eae54b7d1fa2c864f71fba3300d6bd3de18511dbe826be3421cd5e",
+      "source_sha256": "37cdf1ae07eae54b7d1fa2c864f71fba3300d6bd3de18511dbe826be3421cd5e",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/exe_traffic_forecasting.py",
+      "sha256": "1d73ef7da9b46d20baa8b984df5323b4b61f1e27bd3b6667f1b4ff1484574b5b",
+      "source_sha256": "1d73ef7da9b46d20baa8b984df5323b4b61f1e27bd3b6667f1b4ff1484574b5b",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/LICENSE",
+      "sha256": "76f5d72acd2d179c72f9c8d7212cc2e6904c1a15908951d0959b9ea13d528ba9",
+      "source_sha256": "76f5d72acd2d179c72f9c8d7212cc2e6904c1a15908951d0959b9ea13d528ba9",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/main_model.py",
+      "sha256": "445e3f0aa94928e3fea4c002dcdb76e21ae3e1c6e20a39492b8fd883de97d8e5",
+      "source_sha256": "445e3f0aa94928e3fea4c002dcdb76e21ae3e1c6e20a39492b8fd883de97d8e5",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/requirements.txt",
+      "sha256": "6a14207beb17400d8595e111a5bc2d26f4886acea7d84952f501a419d5d372ce",
+      "source_sha256": "6a14207beb17400d8595e111a5bc2d26f4886acea7d84952f501a419d5d372ce",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/CSDI/run_unified_144.py",
+      "sha256": "b2b8f78328e1ea0cdc66c3ad88ddcc5b03cb30e0c337cfffa3fde01bbaed6ec4",
+      "source_sha256": "3c9b5e56593934b6ec35dc1fb50c2ec7b1934b1cf4db839270ba6385b879cb28",
+      "packaging_modified": true
+    },
+    {
+      "path": "methods/baselines/CSDI/utils.py",
+      "sha256": "7449ec7b9026ab3e9bae1b8b19e98f5ff4f61b7b364f01112fc8e6b12f15befe",
+      "source_sha256": "7449ec7b9026ab3e9bae1b8b19e98f5ff4f61b7b364f01112fc8e6b12f15befe",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/algorithm/dataset.py",
+      "sha256": "5b8fcc0c0168b3bafc5598020a431a567a3d63fb1213affc448a9b3e8b08d59a",
+      "source_sha256": "5b8fcc0c0168b3bafc5598020a431a567a3d63fb1213affc448a9b3e8b08d59a",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/algorithm/diffstg/graph_algo.py",
+      "sha256": "2892b04bca921fc5c59c047cc99c4f5d95c0c7ed26d5f94d86900c1ea9e83b07",
+      "source_sha256": "2892b04bca921fc5c59c047cc99c4f5d95c0c7ed26d5f94d86900c1ea9e83b07",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/algorithm/diffstg/model.py",
+      "sha256": "cb347e46662cffe84e60e33821808607f1604eaee71646fc7ec52e1e7521c8e2",
+      "source_sha256": "cb347e46662cffe84e60e33821808607f1604eaee71646fc7ec52e1e7521c8e2",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/algorithm/diffstg/ugnet.py",
+      "sha256": "b972fdc38b4ed1a75ba71d000363644f4fa43be60d60ef8575bf9bf17a5eb7c8",
+      "source_sha256": "b972fdc38b4ed1a75ba71d000363644f4fa43be60d60ef8575bf9bf17a5eb7c8",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/inference.py",
+      "sha256": "fe00426b6d9b519b72ebce9a60a725f158289dabfa04810d454f10258c596795",
+      "source_sha256": "fe00426b6d9b519b72ebce9a60a725f158289dabfa04810d454f10258c596795",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/LICENSE",
+      "sha256": "ee2ffa8c64ffefe0fecf6a17f3fd930696cf987c7806da1f72ba6df04124536f",
+      "source_sha256": "ee2ffa8c64ffefe0fecf6a17f3fd930696cf987c7806da1f72ba6df04124536f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/prepare_data.py",
+      "sha256": "e193d2e6fdf0d84a49d08ff939ea485595ad309a8e40eb494e6c4c340b9b965f",
+      "source_sha256": "e193d2e6fdf0d84a49d08ff939ea485595ad309a8e40eb494e6c4c340b9b965f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/run_unified_144.py",
+      "sha256": "c786f4727ae7b05892daa8b4652e53fad239ef1af76146462b9b80a6ef2535fa",
+      "source_sha256": "bb4ff655438c42cac4674360be67a7ec635859cc98f687cd65de79f5a6bd9cac",
+      "packaging_modified": true
+    },
+    {
+      "path": "methods/baselines/DiffSTG/train.py",
+      "sha256": "25b510e2ba3c0eb1b5251500ffd18900be7f1c4bb1835b32de7126b5fe4065f7",
+      "source_sha256": "25b510e2ba3c0eb1b5251500ffd18900be7f1c4bb1835b32de7126b5fe4065f7",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/utils/__init__.py",
+      "sha256": "cf60ef7c95fc8793526c3d9508ab496e17c6a945875afe08112fcb7cd2f5fd0d",
+      "source_sha256": "cf60ef7c95fc8793526c3d9508ab496e17c6a945875afe08112fcb7cd2f5fd0d",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/utils/common_utils.py",
+      "sha256": "827820174ee654b09e996c67722751168b1869e1794d0e0c612785043bb01e3d",
+      "source_sha256": "827820174ee654b09e996c67722751168b1869e1794d0e0c612785043bb01e3d",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/utils/eval.py",
+      "sha256": "7b28daacb81aefa361627b7ad50e12bb2fd4b2fd8a6bb62f17c762e44aecdc77",
+      "source_sha256": "7b28daacb81aefa361627b7ad50e12bb2fd4b2fd8a6bb62f17c762e44aecdc77",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/DiffSTG/utils/gpu_dispatch.py",
+      "sha256": "00912d5600878e7cf22ce81c90c3d14610bae6b2f44907cdbb2f091086eb701b",
+      "source_sha256": "00912d5600878e7cf22ce81c90c3d14610bae6b2f44907cdbb2f091086eb701b",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/PatchSTG/config/METRLA144_patchstg.conf",
+      "sha256": "8bdadc7ab8d3d08a417367fd53b67011515c67602c89531b612528ea78cf4602",
+      "source_sha256": "8bdadc7ab8d3d08a417367fd53b67011515c67602c89531b612528ea78cf4602",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/PatchSTG/config/PEMSBAY144_patchstg.conf",
+      "sha256": "bbd80a44324cacb6e0ae6bafab645c86d9ab1388fecf86c2c8baea40043acccb",
+      "source_sha256": "bbd80a44324cacb6e0ae6bafab645c86d9ab1388fecf86c2c8baea40043acccb",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/PatchSTG/lib/data_loader.py",
+      "sha256": "eec017728c5e9c682df56509de1c35b76e8692b7f0194993c27179e71eedf5f2",
+      "source_sha256": "eec017728c5e9c682df56509de1c35b76e8692b7f0194993c27179e71eedf5f2",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/PatchSTG/lib/utils.py",
+      "sha256": "0aa0dc12bbba7828d288a541bb8c0e0ba635ee8f0963d6e89808d5347c859c3d",
+      "source_sha256": "0aa0dc12bbba7828d288a541bb8c0e0ba635ee8f0963d6e89808d5347c859c3d",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/PatchSTG/LICENSE",
+      "sha256": "cbd7d2697489fb1bc68edf5462597e34df065de824ad9b67d4290837842f1ce8",
+      "source_sha256": "cbd7d2697489fb1bc68edf5462597e34df065de824ad9b67d4290837842f1ce8",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/PatchSTG/main.py",
+      "sha256": "bd0235ec5e3253f285f104f488ff7a8b9238a8018306f1ba4497d5b9679d322f",
+      "source_sha256": "bd0235ec5e3253f285f104f488ff7a8b9238a8018306f1ba4497d5b9679d322f",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/PatchSTG/models/model.py",
+      "sha256": "80064af49ef56e0478bee25f7aa21a6bdad5320fda3850b8785e2f473e5f0a18",
+      "source_sha256": "80064af49ef56e0478bee25f7aa21a6bdad5320fda3850b8785e2f473e5f0a18",
+      "packaging_modified": false
+    },
+    {
+      "path": "methods/baselines/STID/model.py",
+      "sha256": "b638e6e1738acaf8538813b6f9a6810a5abd78db8b8562c278e52b785ab5cbb3",
+      "source_sha256": "0817715947076467cdc76b88c3ac223340e2e92339995aa0489979c7405ad05e",
+      "packaging_modified": true
+    },
+    {
+      "path": "methods/baselines/STID/run_unified_144.py",
+      "sha256": "c608543b91340af46857284a78e138d6d8e778908cdc080606b32f4fe27c0ce3",
+      "source_sha256": "55aaee859b0511c73d39db7dc39692b24fbe28937252242aa81ebea01e30ce2a",
+      "packaging_modified": true
+    },
+    {
+      "path": "methods/baselines/STID/train.py",
+      "sha256": "6e3966629f1cf5fcfbadc3fbd0fb777aed252fc98cb6e49b713fd81f9ccf8151",
+      "source_sha256": "0b994e4e14a4915e2d5b23b998dd0cc834b6cbaff8335bc00b38f8d08a9ac14a",
+      "packaging_modified": true
+    },
+    {
+      "path": "methods/TrafficFM/models/history_calendar_fixed.py",
+      "sha256": "1c6580ea2c36e857ba404226f2b543ad1efe49832ad5281d0182b89fbc55fa79",
+      "source_sha256": "1c6580ea2c36e857ba404226f2b543ad1efe49832ad5281d0182b89fbc55fa79",
+      "packaging_modified": false
+    }
+  ]
+}
