@@ -1,6 +1,6 @@
 # TrafficFM
 
-Research code for **TrafficFM: Heterogeneity-Aware Conditional Flow Matching for Long-Horizon Traffic Forecasting**.
+A benchmark for **long-horizon traffic forecasting**, bringing together TrafficFM, baseline implementations, dataset resources, and evaluation tools.
 
 This repository brings together TrafficFM and baseline implementations for traffic forecasting. The principal task is **144 historical steps → 144 future steps** at five-minute resolution on **METR-LA (207 sensors)** and **PEMS-BAY (325 sensors)**.
 
